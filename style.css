@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: lavender;
+}
+
+h1 {
+  background: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: absolute;
+
+}
+
+header {
+  background: orange;
+  position: absolute;
+}
+
+nav {
+  background: yellow;
+  position: absolute;
+  width: 20%;
+  height: 100%;
+
+}
+
+/*always set a max width for pictures of what the original picture width was
+absolute positioning will put things in blocks
+glitch.camp
+LOOK UP: HORIZONTAL RULES!!!!!!!
+
+*/
+
+@media (min-width: 600px){ /* can set min width and max width - changes! Use these- note: do mobile first*/
+  nav {
+    background: red;
+    width: 20%;
+    height: 100%;
+  }
+  main {
+    background: navy;
+    position: absolute;
+    top: 2rem;
+    left: 20%;
+  }
+}
+
+footer {
+  background: lavender;
+  top:0;
+  left:0;
+  bottom: 0;
+  right: 0;
+  height: 2rem;
+  overflow: auto;
+  height: 10rem;
+  position: absolute;
+
+}
+
+main {
+  background: navy;
+  top: 2rem;
+  left: 20%;
+  position: absolute;
+}
